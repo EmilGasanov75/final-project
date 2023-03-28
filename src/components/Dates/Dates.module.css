@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    cursor: url("../../../cursor2.cur"), auto;
+}
+
+.date {
+    width: 76.5px;
+    height: 71.25px;
+    color: #575757;
+    font-family: "Inter", sans-serif;
+    font-size: 22.5px;
+    font-weight: 500;
+    margin: 9px;
+    text-align: center;
+    line-height: 63.75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.wrap {
+    margin-left: 5.2vw;
+}
+
+.title {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.75px;
+    text-align: left;   
+margin-bottom: 7.5vh;
+margin-top: 5.5vh;
+color: #435179;
+
+}
+
+.week {
+    display: flex;
+    flex-direction: row;
+}
+
+.eventNum {
+    position: absolute;
+    top: 6px;
+    right: 9.75px;
+    color: #fff;
+    font-size: 9px;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background-color: #FCA13A;
+    display: block;
+    line-height: 18px;
+    text-align: center;
+}
+
+.chosenMonth {
+    color: #435179;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    margin-left: 80.25px;
+    margin-right: 80.25px;
+}
+    
+
+
+.dateActive {
+    background: #6461F2;
+    border-radius: 15px;
+    color: white;
+}
+
+.weekDays {
+    list-style: none;
+    color: #575757;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.5px;
+    display: flex;
+    justify-content: space-around;
+    width: 658.5px;
+    background-color: #d6dcef;
+    border-radius: 30px 30px 0 0;
+    height: 86.25px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.modal {
+    position: fixed;
+    left: 71.53%;
+    right: 7.15%;
+    top: 0%;
+    padding-top: 44.25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: rgba(228, 232, 244, 0.7);
+    border-radius: 0 0 15px 15px;
+    border: 1.5px solid #435179;
+    border-top: none;
+}
+
+.modalDate {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.75px;
+    color: #435179;
+}
+
+
+.modalList {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modalEvents {
+    width: 93.48%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 11.25px;
+    padding-top: 13.5px;
+    padding-left: 13.5px;
+    padding-bottom: 16.13px;
+    padding-right: 13.5px;
+}
+
+.eventName {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14.25px;
+    color: #435179;
+}
+
+.eventDesc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 12.75px;
+    color: #747C93;
+    margin-top: 4.5px;
+}
+
+.eventIdent {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.75px;
+    padding-bottom: 3.75px;
+}   
+
+.modalItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 19.88px;
+    margin-bottom: 19.88px;
+    border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+
+.modalItem:last-child {
+    margin-bottom: 0;
+    border: none;
+    padding: 0;
+}
+
+.itemIconSpace {
+    background: #6461F2;
+    width: 39px;
+    height: 39px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+.birthday {
+    width: 55.7%;
+    height: 55.7%;
+    background-image: url(../../img/celebration.png);
+    background-size: contain;
+}
+
+.call {
+    width: 55.7%;
+    height: 55.7%;
+    background-image: url(../../img/call.png);
+    background-size: contain;
+}
+
+
+.prevMonth, .nextMonth {
+    height: 43.5px;
+    width: 179.25px;
+    left: 369.75px;
+    top: 687px;
+    border-radius: 15px;
+    font-family: "Inter";
+    font-family: Inter;
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 16.5px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(67, 81, 121, 1);
+    border: 2px solid rgba(100, 97, 242, 1)
+}
+
+.noElements {
+    font-family: "Inter";
+    font-size: 12.75px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #435179;
+}
+
+.bored {
+    letter-spacing: -1.688px;
+}
+
+.leftArrow, .rightArrow {
+    color: #435179;
+    font-family: "Inter";
+    font-size: 13.5px;
+    font-weight: 600;
+    margin-bottom: 37.5px;
+}

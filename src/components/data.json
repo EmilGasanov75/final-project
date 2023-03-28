@@ -1,0 +1,34 @@
+[{
+        "date": {
+            "day": 1,
+            "month": 3,
+            "year": 2023
+        },
+        "event": "ДР мій",
+        "description": "др моє",
+        "type": "birthday"
+    },
+
+    {
+        "date": {
+            "day": 2,
+            "month": 3,
+            "year": 2023
+        },
+        "event": "День народження",
+        "description": "др моє",
+        "type": "birthday"
+    },
+    {
+        "date": {
+            "day": 1,
+            "month": 4,
+            "year": 2023
+        },
+        "event": "Проєкт",
+        "description": "Презентація проєкта React",
+        "type": "call"
+    }
+
+]
+
